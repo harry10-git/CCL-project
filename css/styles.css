@@ -1,0 +1,292 @@
+
+@media (max-width: 1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+
+    .img-iphone
+    {
+        position: static;
+        transform: rotate(0);
+    }
+
+
+
+}
+
+body
+{
+    font-family: 'Montserrat';
+}
+
+h1
+{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2
+{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3
+{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+p
+{
+    color: #8f8f8f;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+#title
+{
+    background-color: #6F1AB6;
+    color: white;
+}
+
+
+/*  Navbar */
+
+.navbar
+{
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-family: 'Montserrat-Light';
+    font-size: 1.2rem;
+
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Download Button */
+.download-button
+{
+    margin: 5% 3% 5% 0;
+    position: relative;
+    top: 7rem;
+}
+
+.drum-h1
+{
+    position: relative;
+    top: 4rem;
+}
+
+/* Title Image */
+    
+.drum-img
+{
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+
+/* Features */
+#features
+{
+    padding: 7% 14%;
+    position: relative;
+    z-index: 1;    /* Not required z index here */ 
+    background-color: white;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+
+/* Font Awesome */
+.icon
+{
+    color: #9F73AB;
+    margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+    color: #3D1766;
+}
+
+
+/* Testimonials */
+
+#testimonials
+{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image
+{
+    width: 20%;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+/* Press */
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo
+{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/* Caraousel */
+.carousel-inner
+{
+    padding: 7% 15%;
+}
+
+
+/* Pricing */
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col
+{
+    padding: 3% 2%;
+}
+
+
+
+#cta
+{
+    background-color: #ff4c68;
+    padding: 5% 30%;
+    color: white;
+    text-align: center;
+}
+
+.bottom-btn
+{
+    margin: 2%;
+}
+
+
+#footer
+{
+    text-align: center;
+    padding: 3% 0%;
+}
+
+
+
+
+/* ------------------ DRUM ----------------------*/
+
+.w {
+    background-image: url('images/crash.png');
+  }
+  
+  .a {
+    background-image: url('images/kick.png');
+  }
+  
+  .s {
+    background-image: url('images/snare.png');
+  }
+  
+  .d {
+    background-image: url('images/tom1.png');
+  }
+  
+  .j {
+    background-image: url('images/tom2.png');
+  }
+  
+  .k {
+    background-image: url('images/tom3.png');
+  }
+  
+  .l {
+    background-image: url('images/tom4.png');
+  }
+  
+  .set {
+    margin: 10% auto;
+    text-align: center;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
+
+
+
+
+
+
+
+
+
