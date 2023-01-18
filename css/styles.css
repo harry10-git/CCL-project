@@ -34,7 +34,7 @@ h2
     font-family: 'Montserrat';
     font-size: 3rem;
     line-height: 1.5;
-    font-weight: 900;
+    /* font-weight: 900; */
 }
 
 h3
@@ -145,29 +145,47 @@ p
 {
    
     text-align: center;
-    background-color: #ef8172;
-    color: white;
+    background-color: #ffff;
+    color: black;
+    padding: 3rem 1rem;
 }
 
 .testimonial-image
 {
     width: 20%;
-    border-radius: 100%;
+    border-radius: 50%;
     margin: 1rem;
+    margin-top: 3rem;
 }
 
 /* Press */
 #press
 {
-    background-color: #ef8172;
+    background-color: #6F1AB6;
     text-align: center;
     padding-bottom: 3%;
 }
 
+.sponsor-div
+{
+    position: relative;
+}
 .press-logo
 {
     width: 12%;
-    margin: 20px 20px 50px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    left: 9rem;
+    top: 3rem;   
+}
+
+.press-p
+{
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 5rem;
 }
 
 /* Caraousel */
@@ -217,7 +235,7 @@ p
 /* ------------------ DRUM ----------------------*/
 
 .w {
-    background-image: url('images/crash.png');
+    background-image: url("images/crash.png");
   }
   
   .a {
@@ -280,9 +298,20 @@ p
     margin: 10px;
     background-color: white;
   }
+
+  #drum-section
+  {
+    padding: 5rem 2rem;
+    background-color: #6F1AB6;
+    text-align: center;
+  }
   
-
-
+  .drum-h2
+  {
+    color: #ffff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
 
 
