@@ -170,6 +170,17 @@ p
 {
     position: relative;
 }
+
+.sponsor-text
+{
+    color: white;
+    position: relative;
+    bottom: 5rem;
+    text-align: center;
+}
+
+
+
 .press-logo
 {
     width: 12%;
@@ -211,7 +222,7 @@ p
 
 #cta
 {
-    background-color: #ff4c68;
+    background-color: #3D1766;
     padding: 5% 30%;
     color: white;
     text-align: center;
@@ -234,34 +245,6 @@ p
 
 /* ------------------ DRUM ----------------------*/
 
-.w {
-    background-image: url("images/crash.png");
-  }
-  
-  .a {
-    background-image: url('images/kick.png');
-  }
-  
-  .s {
-    background-image: url('images/snare.png');
-  }
-  
-  .d {
-    background-image: url('images/tom1.png');
-  }
-  
-  .j {
-    background-image: url('images/tom2.png');
-  }
-  
-  .k {
-    background-image: url('images/tom3.png');
-  }
-  
-  .l {
-    background-image: url('images/tom4.png');
-  }
-  
   .set {
     margin: 10% auto;
     text-align: center;
@@ -298,6 +281,8 @@ p
     margin: 10px;
     background-color: white;
   }
+
+
 
   #drum-section
   {
